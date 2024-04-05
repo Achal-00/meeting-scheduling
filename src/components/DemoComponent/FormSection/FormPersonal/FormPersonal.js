@@ -5,7 +5,7 @@ import PersonalSection from "./PersonalSection";
 
 export default function FormPersonal() {
   return (
-    <div className="flex flex-col gap-6 hidden">
+    <div className="hidden flex-col gap-6 form-2">
       <h1 className="text-lg font-medium">Enter Details</h1>
       <PersonalSection />
       <MemberSection />
